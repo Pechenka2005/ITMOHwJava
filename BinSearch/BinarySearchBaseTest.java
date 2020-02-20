@@ -1,5 +1,3 @@
-package search;
-
 import base.MainChecker;
 
 import java.util.Arrays;

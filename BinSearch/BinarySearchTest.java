@@ -1,5 +1,3 @@
-package search;
-
 /**
  * @author Georgiy Korneev (kgeorgiy@kgeorgiy.info)
  */
