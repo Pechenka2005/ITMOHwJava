@@ -17,7 +17,7 @@ public class BinarySearch {
                 answer = numArr.length;
             }
             else{
-                answer = BinarySearchRec(numArr, key, 0, numArr.length-1, numArr.length);
+                answer = BinarySearchIter(numArr, key);
             }
 
         }
@@ -26,20 +26,18 @@ public class BinarySearch {
     }
 
 
-    public static int BinarySearchIter(int[] arr, int key, int l, int r) {
-        int answer = arr.length;
-        int mid;
+    public static int BinarySearchIter(int[] arr, int key) {
+        int l = 0;
+        int r = arr.length - 1;
         while (r >= l) {
-            mid = (l + r) / 2;
+            int mid = (l + r) / 2;
             if (arr[mid] <= key) {
-                answer = mid;
                 r = mid - 1;
             } else {
                 l = mid + 1;
             }
-
         }
-        return answer;
+        return l;
     }
     public static int BinarySearchRec(int [] arr, int key, int l, int r, int answer) {
         int mid = (l + r) / 2;
