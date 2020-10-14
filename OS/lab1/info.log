@@ -1,0 +1,867 @@
+Sep 21 18:48:42 sj-VirtualBox NetworkManager[438]: <info>  [1600699722.1153] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 21 18:48:42 sj-VirtualBox NetworkManager[438]: <info>  [1600699722.1169] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 21 18:48:42 sj-VirtualBox NetworkManager[438]: <info>  [1600699722.5032] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 21 18:48:42 sj-VirtualBox NetworkManager[438]: <info>  [1600699722.5654] manager[0x559ce7586030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 21 18:48:42 sj-VirtualBox NetworkManager[438]: <info>  [1600699722.5763] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 21 18:48:43 sj-VirtualBox ModemManager[538]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.7847] hostname: hostname: using hostnamed
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.7848] hostname: hostname changed from (none) to "sj-VirtualBox"
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.7853] dns-mgr[0x559ce756b290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.7862] manager[0x559ce7586030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.7862] manager[0x559ce7586030]: rfkill: WWAN hardware radio set enabled
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8145] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8206] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8331] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8360] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8388] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8479] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8498] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8514] manager: Networking is enabled by state file
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8568] dhcp-init: Using DHCP client 'internal'
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8736] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8753] settings: Loaded settings plugin: keyfile (internal)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8814] ifupdown: management mode: unmanaged
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8911] device (lo): carrier: link connected
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.8951] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.9053] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.9581] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 21 18:48:43 sj-VirtualBox NetworkManager[438]: <info>  [1600699723.9755] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.0029] device (enp0s3): carrier: link connected
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.0841] modem-manager: ModemManager available
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1099] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1197] policy: auto-activating connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1329] device (enp0s3): Activation: starting connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1342] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1449] manager: NetworkManager state is now CONNECTING
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1475] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1541] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1563] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1787] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1827] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1829] dhcp4 (enp0s3): option expiry               => '1600786124'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1831] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1832] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1833] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1834] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1835] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1837] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1838] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1839] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1842] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1845] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1846] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1848] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1850] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1851] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1853] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1854] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1855] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1856] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1857] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1859] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1860] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1861] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.1993] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2114] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2130] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2191] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2318] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2370] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2444] device (enp0s3): Activation: successful, device activated.
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.2672] manager: startup complete
+Sep 21 18:48:44 sj-VirtualBox NetworkManager[438]: <info>  [1600699724.8573] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 18:48:46 sj-VirtualBox ModemManager[538]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 21 18:48:57 sj-VirtualBox NetworkManager[438]: <info>  [1600699737.4944] agent-manager: agent[ad65e3a00ffae980,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 18:49:11 sj-VirtualBox ModemManager[538]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 21 18:59:51 sj-VirtualBox ModemManager[538]: <info>  Caught signal, shutting down...
+Sep 22 02:04:22 sj-VirtualBox NetworkManager[470]: <info>  [1600725862.2389] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 22 02:04:22 sj-VirtualBox NetworkManager[470]: <info>  [1600725862.2409] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 22 02:04:23 sj-VirtualBox NetworkManager[470]: <info>  [1600725863.7464] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 22 02:04:23 sj-VirtualBox NetworkManager[470]: <info>  [1600725863.8627] manager[0x56012d800030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 22 02:04:23 sj-VirtualBox NetworkManager[470]: <info>  [1600725863.8801] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 22 02:04:25 sj-VirtualBox ModemManager[570]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3425] hostname: hostname: using hostnamed
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3426] hostname: hostname changed from (none) to "sj-VirtualBox"
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3428] dns-mgr[0x56012d7e8290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3431] manager[0x56012d800030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3431] manager[0x56012d800030]: rfkill: WWAN hardware radio set enabled
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3795] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3929] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.3977] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4046] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4153] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4164] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4175] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4184] manager: Networking is enabled by state file
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4216] dhcp-init: Using DHCP client 'internal'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4327] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4330] settings: Loaded settings plugin: keyfile (internal)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4332] ifupdown: management mode: unmanaged
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4608] device (lo): carrier: link connected
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4631] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.4779] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.5032] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.5228] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.5523] device (enp0s3): carrier: link connected
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6174] modem-manager: ModemManager available
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6562] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6708] policy: auto-activating connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6767] device (enp0s3): Activation: starting connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6780] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6920] manager: NetworkManager state is now CONNECTING
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.6971] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7149] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7233] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7543] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7550] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7552] dhcp4 (enp0s3): option expiry               => '1600812266'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7554] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7555] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7558] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7559] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7560] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7562] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7563] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7564] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7564] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.7774] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.8130] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.8234] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.8272] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.8590] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.8606] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.8776] device (enp0s3): Activation: successful, device activated.
+Sep 22 02:04:26 sj-VirtualBox NetworkManager[470]: <info>  [1600725866.9175] manager: startup complete
+Sep 22 02:04:27 sj-VirtualBox NetworkManager[470]: <info>  [1600725867.4597] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 02:04:28 sj-VirtualBox ModemManager[570]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 22 02:04:53 sj-VirtualBox NetworkManager[470]: <info>  [1600725893.3251] agent-manager: agent[c62baf9dcdfb2418,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 02:13:53 sj-VirtualBox ModemManager[570]: <info>  Caught signal, shutting down...
+Sep 22 02:13:53 sj-VirtualBox ModemManager[570]: <info>  ModemManager is shut down
+Sep 22 02:13:53 sj-VirtualBox NetworkManager[470]: <info>  [1600726433.0602] modem-manager: ModemManager no longer available
+Sep 27 17:40:47 sj-VirtualBox NetworkManager[470]: <info>  [1601214047.5190] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 27 17:40:47 sj-VirtualBox NetworkManager[470]: <info>  [1601214047.5422] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 27 17:40:48 sj-VirtualBox NetworkManager[470]: <info>  [1601214048.3918] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 27 17:40:48 sj-VirtualBox NetworkManager[470]: <info>  [1601214048.5172] manager[0x5646ee1aa030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 27 17:40:48 sj-VirtualBox NetworkManager[470]: <info>  [1601214048.5183] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 27 17:40:49 sj-VirtualBox ModemManager[546]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.3697] hostname: hostname: using hostnamed
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.3698] hostname: hostname changed from (none) to "sj-VirtualBox"
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.3705] dns-mgr[0x5646ee18f290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.3708] manager[0x5646ee1aa030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.3708] manager[0x5646ee1aa030]: rfkill: WWAN hardware radio set enabled
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4041] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4122] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4491] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4549] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4642] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4800] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4901] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4930] manager: Networking is enabled by state file
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.4943] dhcp-init: Using DHCP client 'internal'
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.5132] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.5135] settings: Loaded settings plugin: keyfile (internal)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.5137] ifupdown: management mode: unmanaged
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.5259] device (lo): carrier: link connected
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.5328] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.5593] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.6035] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.6331] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.7374] modem-manager: ModemManager available
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.7566] device (enp0s3): carrier: link connected
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.7981] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.8335] policy: auto-activating connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.8565] device (enp0s3): Activation: starting connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.8734] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.9075] manager: NetworkManager state is now CONNECTING
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.9190] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.9510] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 27 17:40:51 sj-VirtualBox NetworkManager[470]: <info>  [1601214051.9536] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0342] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option expiry               => '1601300452'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0343] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0344] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0345] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0345] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0345] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0491] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0689] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0722] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0743] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.0942] manager: NetworkManager state is now CONNECTED_SITE
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.1012] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.1174] device (enp0s3): Activation: successful, device activated.
+Sep 27 17:40:52 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.1539] manager: startup complete
+Sep 27 17:40:53 sj-VirtualBox NetworkManager[470]: <info>  [1601214052.7377] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 27 17:40:53 sj-VirtualBox ModemManager[546]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 27 17:41:11 sj-VirtualBox NetworkManager[470]: <info>  [1601214071.4168] agent-manager: agent[5668d8ea3da988fe,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 27 18:23:20 sj-VirtualBox NetworkManager[470]: <info>  [1601216600.0563] agent-manager: agent[c91f8c597f93afc5,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3822] device (enp0s3): carrier: link connected
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3848] device (enp0s3): DHCPv4 lease renewal requested
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3849] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3850] dhcp4 (enp0s3): state changed bound -> done
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3855] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3962] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3965] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3967] dhcp4 (enp0s3): option expiry               => '1601303010'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3968] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3969] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3970] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3972] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3973] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3974] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3975] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3976] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3978] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3980] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3983] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3984] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3986] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3987] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3989] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3990] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3991] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3993] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3993] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3994] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3994] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 27 18:23:30 sj-VirtualBox NetworkManager[470]: <info>  [1601216610.3994] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 27 18:31:39 sj-VirtualBox NetworkManager[470]: <info>  [1601217099.2410] agent-manager: agent[56cf07c47dc614f3,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 00:08:17 sj-VirtualBox NetworkManager[470]: <info>  [1601237297.9239] agent-manager: agent[3eba5fa5cebe6db8,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 00:19:15 sj-VirtualBox NetworkManager[470]: <info>  [1601237955.0385] agent-manager: agent[2a0c8cadea06efcb,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 00:26:26 sj-VirtualBox NetworkManager[470]: <info>  [1601238386.2425] agent-manager: agent[36479602f3a0683b,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 01:48:05 sj-VirtualBox NetworkManager[470]: <info>  [1601243285.7876] agent-manager: agent[56cf07c47dc614f3,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 01:48:27 sj-VirtualBox ModemManager[546]: <info>  Caught signal, shutting down...
+Sep 28 01:48:27 sj-VirtualBox ModemManager[546]: <info>  ModemManager is shut down
+Sep 28 01:48:27 sj-VirtualBox NetworkManager[470]: <info>  [1601243307.7079] modem-manager: ModemManager no longer available
+Sep 28 16:39:00 sj-VirtualBox NetworkManager[470]: <info>  [1601296740.5148] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 28 16:39:00 sj-VirtualBox NetworkManager[470]: <info>  [1601296740.5180] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 28 16:39:00 sj-VirtualBox NetworkManager[470]: <info>  [1601296740.8805] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 28 16:39:00 sj-VirtualBox NetworkManager[470]: <info>  [1601296740.9222] manager[0x55e050400030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 28 16:39:00 sj-VirtualBox NetworkManager[470]: <info>  [1601296740.9222] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 28 16:39:01 sj-VirtualBox ModemManager[558]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4461] hostname: hostname: using hostnamed
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4462] hostname: hostname changed from (none) to "sj-VirtualBox"
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4465] dns-mgr[0x55e0503e5290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4471] manager[0x55e050400030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4471] manager[0x55e050400030]: rfkill: WWAN hardware radio set enabled
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4788] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.4930] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5588] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5630] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5689] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5734] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5775] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5814] manager: Networking is enabled by state file
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5850] dhcp-init: Using DHCP client 'internal'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5972] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5975] settings: Loaded settings plugin: keyfile (internal)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.5977] ifupdown: management mode: unmanaged
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.6039] device (lo): carrier: link connected
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.6050] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.6146] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.6994] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.7232] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.7459] device (enp0s3): carrier: link connected
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.8390] modem-manager: ModemManager available
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.8756] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.8954] policy: auto-activating connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9024] device (enp0s3): Activation: starting connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9045] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9080] manager: NetworkManager state is now CONNECTING
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9219] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9402] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9424] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9777] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9780] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9781] dhcp4 (enp0s3): option expiry               => '1601383142'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9782] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9783] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9784] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9785] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9785] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9785] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9785] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9785] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 28 16:39:02 sj-VirtualBox NetworkManager[470]: <info>  [1601296742.9844] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0128] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0182] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0357] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0459] manager: NetworkManager state is now CONNECTED_SITE
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0489] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0602] device (enp0s3): Activation: successful, device activated.
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.0925] manager: startup complete
+Sep 28 16:39:03 sj-VirtualBox NetworkManager[470]: <info>  [1601296743.6545] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 28 16:39:04 sj-VirtualBox ModemManager[558]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 28 16:39:16 sj-VirtualBox NetworkManager[470]: <info>  [1601296756.8416] agent-manager: agent[2b59f32ae8adfe03,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 17:09:10 sj-VirtualBox NetworkManager[470]: <info>  [1601298550.0464] manager: NetworkManager state is now CONNECTED_SITE
+Sep 28 17:09:12 sj-VirtualBox NetworkManager[470]: <info>  [1601298552.6614] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 28 17:22:23 sj-VirtualBox ModemManager[558]: <info>  Caught signal, shutting down...
+Sep 28 17:22:23 sj-VirtualBox ModemManager[558]: <info>  ModemManager is shut down
+Sep 28 21:14:50 sj-VirtualBox NetworkManager[472]: <info>  [1601313290.9296] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 28 21:14:50 sj-VirtualBox NetworkManager[472]: <info>  [1601313290.9332] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 28 21:14:51 sj-VirtualBox NetworkManager[472]: <info>  [1601313291.3369] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 28 21:14:51 sj-VirtualBox ModemManager[555]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 28 21:14:52 sj-VirtualBox NetworkManager[472]: <info>  [1601313292.1273] manager[0x55b01f675040]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 28 21:14:52 sj-VirtualBox NetworkManager[472]: <info>  [1601313292.1292] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.0850] hostname: hostname: using hostnamed
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.0850] hostname: hostname changed from (none) to "sj-VirtualBox"
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.0853] dns-mgr[0x55b01f65a290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.0855] manager[0x55b01f675040]: rfkill: Wi-Fi hardware radio set enabled
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.0856] manager[0x55b01f675040]: rfkill: WWAN hardware radio set enabled
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1124] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1230] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1364] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1644] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1721] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1728] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1741] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1742] manager: Networking is enabled by state file
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1744] dhcp-init: Using DHCP client 'internal'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1819] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1819] settings: Loaded settings plugin: keyfile (internal)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1820] ifupdown: management mode: unmanaged
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1892] device (lo): carrier: link connected
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.1935] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.2279] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.2740] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.2919] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.3131] device (enp0s3): carrier: link connected
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.3955] modem-manager: ModemManager available
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4261] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4394] policy: auto-activating connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4452] device (enp0s3): Activation: starting connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4509] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4601] manager: NetworkManager state is now CONNECTING
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4626] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4715] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.4779] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5239] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5239] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5239] dhcp4 (enp0s3): option expiry               => '1601399693'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5240] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5241] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5241] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5241] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5241] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5241] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5241] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5314] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5507] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5520] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5571] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5771] manager: NetworkManager state is now CONNECTED_SITE
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5786] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.5856] device (enp0s3): Activation: successful, device activated.
+Sep 28 21:14:53 sj-VirtualBox NetworkManager[472]: <info>  [1601313293.6120] manager: startup complete
+Sep 28 21:14:54 sj-VirtualBox NetworkManager[472]: <info>  [1601313294.1406] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 28 21:14:55 sj-VirtualBox ModemManager[555]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 28 21:15:07 sj-VirtualBox NetworkManager[472]: <info>  [1601313307.1392] agent-manager: agent[8e3e6a457e32c2f1,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 28 21:18:39 sj-VirtualBox ModemManager[555]: <info>  Caught signal, shutting down...
+Sep 29 20:38:09 sj-VirtualBox NetworkManager[468]: <info>  [1601397489.0983] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 29 20:38:09 sj-VirtualBox NetworkManager[468]: <info>  [1601397489.0988] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 29 20:38:09 sj-VirtualBox NetworkManager[468]: <info>  [1601397489.5006] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 29 20:38:09 sj-VirtualBox NetworkManager[468]: <info>  [1601397489.5632] manager[0x55bc02d4a030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 29 20:38:09 sj-VirtualBox NetworkManager[468]: <info>  [1601397489.5648] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 29 20:38:09 sj-VirtualBox ModemManager[559]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.7874] hostname: hostname: using hostnamed
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.7875] hostname: hostname changed from (none) to "sj-VirtualBox"
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.7879] dns-mgr[0x55bc02d32290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.7882] manager[0x55bc02d4a030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.7882] manager[0x55bc02d4a030]: rfkill: WWAN hardware radio set enabled
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8504] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8597] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8717] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8772] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8813] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8912] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.8943] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9016] manager: Networking is enabled by state file
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9088] dhcp-init: Using DHCP client 'internal'
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9137] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9142] settings: Loaded settings plugin: keyfile (internal)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9145] ifupdown: management mode: unmanaged
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9317] device (lo): carrier: link connected
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9440] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 29 20:38:10 sj-VirtualBox NetworkManager[468]: <info>  [1601397490.9636] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.0090] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.0280] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.0493] device (enp0s3): carrier: link connected
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1162] modem-manager: ModemManager available
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1509] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1583] policy: auto-activating connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1691] device (enp0s3): Activation: starting connection 'Wired connection 1' (bc3ada30-23bc-31b4-89dc-cadb3b069d70)
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1699] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1740] manager: NetworkManager state is now CONNECTING
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1772] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1883] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.1915] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2307] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option expiry               => '1601483891'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2308] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2309] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2383] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2459] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2498] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2524] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2695] manager: NetworkManager state is now CONNECTED_SITE
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2752] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.2850] device (enp0s3): Activation: successful, device activated.
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.3147] manager: startup complete
+Sep 29 20:38:11 sj-VirtualBox NetworkManager[468]: <info>  [1601397491.9105] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 29 20:38:13 sj-VirtualBox ModemManager[559]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 29 20:38:27 sj-VirtualBox NetworkManager[468]: <info>  [1601397507.1497] agent-manager: agent[a6d0fb28ab04564f,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 29 20:43:33 sj-VirtualBox NetworkManager[468]: <info>  [1601397813.2933] manager: NetworkManager state is now CONNECTED_SITE
+Sep 29 20:43:34 sj-VirtualBox NetworkManager[468]: <info>  [1601397814.9205] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2068] device (enp0s3): carrier: link connected
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2130] device (enp0s3): DHCPv4 lease renewal requested
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2130] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2131] dhcp4 (enp0s3): state changed bound -> done
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2136] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2203] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2204] dhcp4 (enp0s3): option domain_name_servers  => '10.0.2.3'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2204] dhcp4 (enp0s3): option expiry               => '1601485586'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2204] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2204] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2204] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2205] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2206] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2206] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2206] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2206] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2206] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2206] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2207] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2207] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2207] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2207] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2207] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 29 21:06:26 sj-VirtualBox NetworkManager[468]: <info>  [1601399186.2207] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3338] device (enp0s3): carrier: link connected
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3352] device (enp0s3): DHCPv4 lease renewal requested
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3353] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3353] dhcp4 (enp0s3): state changed bound -> done
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3373] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3449] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3454] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3455] dhcp4 (enp0s3): option expiry               => '1601485602'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3457] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3458] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3459] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3461] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3462] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3463] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3464] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3466] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3468] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3480] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3481] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3482] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3482] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 29 21:06:42 sj-VirtualBox NetworkManager[468]: <info>  [1601399202.3482] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9899] device (enp0s3): carrier: link connected
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9919] device (enp0s3): DHCPv4 lease renewal requested
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9919] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9920] dhcp4 (enp0s3): state changed bound -> done
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9925] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9991] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 29 21:08:04 sj-VirtualBox NetworkManager[468]: <info>  [1601399284.9994] dhcp4 (enp0s3): option domain_name_servers  => '10.0.2.3'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option expiry               => '1601485684'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0001] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0002] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0003] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0003] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 29 21:08:05 sj-VirtualBox NetworkManager[468]: <info>  [1601399285.0003] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1177] device (enp0s3): carrier: link connected
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1194] device (enp0s3): DHCPv4 lease renewal requested
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1194] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1195] dhcp4 (enp0s3): state changed bound -> done
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1238] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1326] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1330] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1332] dhcp4 (enp0s3): option expiry               => '1601485701'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1334] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1335] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1338] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1343] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1363] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1375] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1378] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1380] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1381] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1382] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1383] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1385] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1386] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1387] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1389] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1391] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1398] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1398] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1398] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1398] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1398] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 29 21:08:21 sj-VirtualBox NetworkManager[468]: <info>  [1601399301.1398] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 00:43:17 sj-VirtualBox NetworkManager[468]: <info>  [1601412197.5272] agent-manager: agent[8848e89fa50892d1,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9844] device (enp0s3): carrier: link connected
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9865] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9869] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9869] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9904] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9979] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9983] dhcp4 (enp0s3): option domain_name_servers  => '10.0.2.3'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9985] dhcp4 (enp0s3): option expiry               => '1601501199'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9986] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9988] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9989] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9990] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9991] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9993] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9994] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9995] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9996] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9998] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 01:26:39 sj-VirtualBox NetworkManager[468]: <info>  [1601414799.9999] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0000] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0001] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0003] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0004] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0005] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0006] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0008] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0008] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0008] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0008] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 01:26:40 sj-VirtualBox NetworkManager[468]: <info>  [1601414800.0008] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 01:28:48 sj-VirtualBox NetworkManager[468]: <info>  [1601414928.2817] manager: NetworkManager state is now CONNECTED_SITE
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2009] device (enp0s3): carrier: link connected
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2041] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2042] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2042] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2150] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2223] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2223] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option expiry               => '1601501857'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2224] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2226] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 01:37:37 sj-VirtualBox NetworkManager[468]: <info>  [1601415457.2227] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.2812] device (enp0s3): carrier: link connected
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.2828] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.2828] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.2829] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.2835] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3018] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3023] dhcp4 (enp0s3): option domain_name_servers  => '10.0.2.3'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3025] dhcp4 (enp0s3): option expiry               => '1601501867'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3026] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 01:37:47 sj-VirtualBox NetworkManager[468]: <info>  [1601415467.3027] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3462] device (enp0s3): carrier: link connected
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3473] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3476] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3478] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3505] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3569] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3574] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3577] dhcp4 (enp0s3): option expiry               => '1601501875'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3579] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3581] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3583] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3587] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3589] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3591] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3592] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3593] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3594] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3596] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3597] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3598] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3599] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3600] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3602] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3603] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3604] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3605] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3606] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3608] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3609] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 01:37:55 sj-VirtualBox NetworkManager[468]: <info>  [1601415475.3610] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 01:38:48 sj-VirtualBox NetworkManager[468]: <info>  [1601415528.1687] agent-manager: agent[94dc93459155f2af,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 01:42:19 sj-VirtualBox NetworkManager[468]: <info>  [1601415739.8236] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 30 01:47:39 sj-VirtualBox NetworkManager[468]: <info>  [1601416059.2630] manager: NetworkManager state is now CONNECTED_SITE
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4412] device (enp0s3): carrier: link connected
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4429] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4429] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4429] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4447] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4518] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4521] dhcp4 (enp0s3): option domain_name_servers  => '10.0.2.3'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4523] dhcp4 (enp0s3): option expiry               => '1601502643'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4525] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4526] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4526] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4526] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4526] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 01:50:43 sj-VirtualBox NetworkManager[468]: <info>  [1601416243.4527] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.1770] device (enp0s3): carrier: link connected
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.1813] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.1814] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.1814] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.1840] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2072] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2077] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option expiry               => '1601503240'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2083] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2084] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2085] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 02:00:40 sj-VirtualBox NetworkManager[468]: <info>  [1601416840.2085] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 02:01:10 sj-VirtualBox NetworkManager[468]: <info>  [1601416870.8876] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 30 02:19:29 sj-VirtualBox NetworkManager[468]: <info>  [1601417969.4263] agent-manager: agent[94dc93459155f2af,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 03:19:56 sj-VirtualBox NetworkManager[468]: <info>  [1601421596.1826] agent-manager: agent[6314e9ca22e8c10d,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9466] device (enp0s3): carrier: link connected
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9493] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9494] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9494] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9566] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9768] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9773] dhcp4 (enp0s3): option domain_name_servers  => '10.0.2.3'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9777] dhcp4 (enp0s3): option expiry               => '1601521468'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9780] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9783] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9783] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9783] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9783] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9784] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9785] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 07:04:28 sj-VirtualBox NetworkManager[468]: <info>  [1601435068.9786] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.1879] device (enp0s3): carrier: link connected
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.1902] device (enp0s3): DHCPv4 lease renewal requested
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.1903] dhcp4 (enp0s3): canceled DHCP transaction
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.1903] dhcp4 (enp0s3): state changed bound -> done
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.2048] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3158] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3159] dhcp4 (enp0s3): option domain_name_servers  => '172.20.10.1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3159] dhcp4 (enp0s3): option expiry               => '1601521499'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3160] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3160] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3160] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3160] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3160] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3160] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3161] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3162] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 30 07:04:59 sj-VirtualBox NetworkManager[468]: <info>  [1601435099.3163] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 30 07:12:12 sj-VirtualBox NetworkManager[468]: <info>  [1601435532.1885] agent-manager: agent[2bb77e940b45ba0e,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 12:46:30 sj-VirtualBox NetworkManager[468]: <info>  [1601455590.8741] agent-manager: agent[aada817e7645d1d8,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 13:04:11 sj-VirtualBox NetworkManager[468]: <info>  [1601456651.1899] agent-manager: agent[91f7b5d2a004d9ac,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 30 13:59:17 sj-VirtualBox NetworkManager[468]: <info>  [1601459957.8608] agent-manager: agent[caba919b5622c275,:1.45/org.gnome.Shell.NetworkAgent/1000]: agent registered
